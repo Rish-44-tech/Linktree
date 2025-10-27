@@ -30,6 +30,11 @@ body{
     border-bottom: 0px;
     width: 100%;
 }
+.items:hover{
+    background-color: #8e9dcc;
+    transition-duration: 0.6s;
+    transform:scale(1.1);
+}
 #mypic{
     width: 250px;
     height: 370px;
@@ -53,4 +58,15 @@ a{
     height: 40px;
     width: 40px;
     padding-left: 50px;
+}
+footer{
+    margin:65px 0px 1px 0px;
+    border: 2px solid #8e9dcc;
+    border-left: 0px;
+    border-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+
 }
